@@ -1,0 +1,7 @@
+SDLC
+
+Group Jobs: 
+Abraham - Project Manager 
+Aspen - Web Designer 
+Zac - Programmer, Web Developer
+Jeremiah - Content Designer
