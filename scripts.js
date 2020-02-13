@@ -1,3 +1,4 @@
+//Changes the styles on the page that it's selected for
 function replaceCSS(newStyles) {
 
     //grabs the css page to replace with the user's selection
