@@ -1,5 +1,23 @@
 /* INDEX/BASIC STYLES FOR ALL PAGES */
 
-html{
-    background-color: 
+div#something{
+    box-sizing: border-box;
+    /* display: block; */
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    background-color: blue;
+}
+
+div#something2{
+    display: block;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    background-color: pink;
+}
+
+p#efi{
+    padding: 0px;
+    margin: 0px;
 }
