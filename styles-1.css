@@ -9,24 +9,24 @@ Abe - Project Manager
 
 /* INDEX/BASIC STYLES FOR ALL PAGES */
 
-div#something{
-    box-sizing: border-box;
-    /* display: block; */
-    width: 100%;
-    padding: 0px;
-    margin: 0px;
-    background-color: blue;
+/* font used for the index page */
+@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
+
+
+
+html{
+    background-color: #E88D7D;
 }
 
-div#something2{
-    display: block;
-    width: 100%;
-    padding: 0px;
-    margin: 0px;
-    background-color: pink;
+h1{
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    font-size: 100px;
 }
 
-p#efi{
-    padding: 0px;
-    margin: 0px;
+h5{
+    text-align: center;
 }
+
+
