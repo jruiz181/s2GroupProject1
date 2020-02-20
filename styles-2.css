@@ -10,14 +10,26 @@ Abe - Project Manager
 /* company page. similar to index */
 
 @import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
+@keyframes zoom {
+    0% {
+        opacity: 0;
+        font-size: 0px;
+    }
+    33% {
+        opacity: 0;
+        font-size: 0px;
+    }
+    100% {
+        opacity: 1;
+        font-size: 40px;
+    }
+}
 
-
-
-html{
+html {
     background-color: #E88D7D;
 }
 
-h1{
+h1 {
     text-align: center;
     font-family: 'Oswald', sans-serif;
     color: white;
@@ -25,29 +37,33 @@ h1{
     text-shadow: 10px 5px #C0C781;
     margin: 0px;
     padding: 0px;
-    animation-name: zoom;
-    animation-duration: 4s;
+    transition: 3s;
 }
 
-
-@keyframes zoom{
-    0%{opacity: 0; font-size: 0px;}
-    50%{opacity: .5; font-size: 0px;}
-    100%{opacity: 1; font-size: 40px;}
-}
-
-/* nav ul li a{
-    display: inline;
+nav ul li a {
+    display: block;
     font-family: 'Oswald', sans-serif;
     color: white;
     text-decoration: none;
     list-style-type: none;
-    font-size: 40px;
-    animation-name: zoom;
-    animation-duration: 4s;
+    font-size: 20px;
+    width: fit-content;
 }
 
-li{
+nav {
+    /* animation-name: navSlide 2s forwards;  */
+    padding-left: 0px;
+    padding-right: auto;
+    position: fixed;
+    float: left;
+    padding-top: auto;
+    padding-bottom: auto;
+    margin: auto auto auto 0px;
+    background-color: rgba(224, 224, 224, 0.301);
+    border-radius: 30px;
+}
+
+li {
     display: inline;
 }
 
@@ -59,11 +75,25 @@ li a {
     text-decoration: none;
 }
 
-nav a:hover{
+nav a:hover {
     color: #C0C781;
     transition: .3s color;
 }
 
-ul{
+ul {
+    padding-left: 0px;
+    padding-right: auto;
+}
+
+#starting_pane {
+    height: 110vh;
+}
+
+h2 {
+    font-size: 40px;
     text-align: center;
-} */
+    color: white;
+    animation-name: zoom;
+    animation-duration: 4s;
+    margin: 0px 0px;
+}
