@@ -67,3 +67,9 @@ nav a:hover{
 ul{
     text-align: center;
 }
+ 
+img#ss{
+ background: fixed;
+ padding: 0;
+ margin: 0 ;
+}
