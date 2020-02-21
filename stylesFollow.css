@@ -1,41 +1,14 @@
-/*
-Team Info:
-
-Jerry - Content Designer
-Zac I. - Programmer, Web Developer
-Aspen - Web Designer
-Abe - Project Manager
-*/
-
-/*
-Team Info:
-
-Jerry - Content Designer
-Zac I. - Programmer, Web Developer
-Aspen - Web Designer
-Abe - Project Manager
-*/
-
-/* INDEX/BASIC STYLES FOR ALL PAGES */
-
-/* font used for the index page */
-@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
-
-
-
 html{
-    background-color: #303633;
+    background-color: #e0ffff;
 }
-
 h1{
+    color:#f4632f;
     text-align: center;
-    font-family: 'Oswald', sans-serif;
-    color: white;
-    font-size: 100px;
 }
+img#robot{
+    width: 200px;
+    height: 200px;
 
-h5{
-    text-align: center;
 }
 
 
