@@ -6,3 +6,53 @@ Zac I. - Programmer, Web Developer
 Aspen - Web Designer
 Abe - Project Manager
 */
+
+/* styles for jobs page/scrolly thingy */
+@import url('https://fonts.googleapis.com/css?family=Play&display=swap');
+
+h1, h3, div#info_pane p{
+    text-align: center;
+}
+#info_pane{
+    height: 100vh;
+}
+
+body{
+    margin: 0px;
+}
+
+
+div#job1_apply_pane, div#job3_apply_pane{
+    box-sizing: border-box;
+    background-color: #8D8D92;
+    width: 100%;
+    text-align: right;
+    height: 300px;
+    padding: 10px;
+}
+
+div#job1_apply_pane h2, div#job3_apply_pane h2{
+    text-align: left;
+}
+
+div#job2_apply_pane, div#job4_apply_pane{
+    box-sizing: border-box;
+    background-color: #5D5E60;
+    width: 100%;
+    height: 300px;
+    text-align: left;
+    padding: 10px;
+}
+
+h2{
+    margin: 0px;
+    text-align: right;
+}
+
+h1, h2, h3, p{
+    font-family: 'Play', sans-serif;
+}
+
+form{
+    font-family: 'Play', sans-serif;
+}
