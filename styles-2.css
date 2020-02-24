@@ -27,6 +27,7 @@ Abe - Project Manager
 
 html {
     background-color: #E88D7D;
+    scroll-behavior: smooth;
 }
 
 h1 {
@@ -51,7 +52,6 @@ nav ul li a {
 }
 
 nav {
-    /* animation-name: navSlide 2s forwards;  */
     padding-left: 0px;
     padding-right: auto;
     position: fixed;
@@ -85,15 +85,30 @@ ul {
     padding-right: auto;
 }
 
-#starting_pane {
+#starting_pane, #about_pane {
     height: 110vh;
 }
 
-h2 {
+h2, h2 a {
     font-size: 40px;
     text-align: center;
     color: white;
     animation-name: zoom;
     animation-duration: 2s;
     margin: 0px 0px;
+    text-decoration: none;
+}
+
+p {
+    position: relative;
+    font-size: 30px;
+    padding-top: auto;
+    padding-right: 0px;
+    padding-bottom: auto;
+    padding-left: 150px;
+    margin: 0px;
+    margin-right: 40px;
+    text-align: justify;
+    vertical-align: middle;
+    top: 25%;
 }
