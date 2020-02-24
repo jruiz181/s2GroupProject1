@@ -13,9 +13,9 @@ Abe - Project Manager
 h1, h3, div#info_pane p{
     text-align: center;
 }
-#info_pane{
+/* #info_pane{
     height: 100vh;
-}
+} */
 
 body{
     margin: 0px;
@@ -29,6 +29,7 @@ div#job1_apply_pane, div#job3_apply_pane{
     text-align: right;
     height: 300px;
     padding: 10px;
+    transition: 3s;
 }
 
 div#job1_apply_pane h2, div#job3_apply_pane h2{
@@ -42,6 +43,7 @@ div#job2_apply_pane, div#job4_apply_pane{
     height: 300px;
     text-align: left;
     padding: 10px;
+    transition: 3s;
 }
 
 h2{
