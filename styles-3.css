@@ -14,12 +14,6 @@ html{
     background-color: #E88D7D;
 }
 
-@keyframes zoom{
-    0%{opacity: 0; font-size: 0px;}
-    33%{opacity: 0; font-size: 0px;}
-    100%{opacity: 1; font-size: 16px;}
-}
-
 h1, h3, div#info_pane p{
     text-align: center;
     color: white;
@@ -81,14 +75,13 @@ div#job1_apply_pane, div#job3_apply_pane{
     padding: 10px;
     margin-left: 485px;
     margin-top: 10px;
-    /* animation-name: zoom;
-    animation-duration: 2s; */
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
 }
 
 div#job1_apply_pane h2, div#job3_apply_pane h2{
     text-align: left;
 }
-
 
 div#job2_apply_pane, div#job4_apply_pane{
     box-sizing: border-box;
@@ -100,6 +93,8 @@ div#job2_apply_pane, div#job4_apply_pane{
     padding: 10px;
     margin-left: 235px;
     margin-top: 10px;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
 }
 
 h2{
