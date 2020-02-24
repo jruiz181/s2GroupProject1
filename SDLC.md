@@ -21,8 +21,8 @@
 
 # REQUIREMENTS AND SPECIFICATIONS
 * You are to build a full and working site with any goal you want. Once you have chosen a topic EVERYONE in the group will be responsible for their own two pages to add to the site. 
-*On these pages there will be a clear and concise theme, so you must all work together to design the site and then create your own. On these pages you will also have 4 buttons anywhere you like that will change all of the theme's colors.
-*You will be graded on both the working site and the themes
+* On these pages there will be a clear and concise theme, so you must all work together to design the site and then create your own. On these pages you will also have 4 buttons anywhere you like that will change all of the theme's colors.
+* You will be graded on both the working site and the themes
 # Information Design and Taxonomy Creation
 * Content Goal: Create a site for the Product EFI that we have made standing for Electronic Filing Intern  
 # Site Structure:
