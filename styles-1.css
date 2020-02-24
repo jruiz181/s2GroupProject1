@@ -7,26 +7,68 @@ Aspen - Web Designer
 Abe - Project Manager
 */
 
-/* INDEX/BASIC STYLES FOR ALL PAGES */
+/* INDEX*/
 
-div#something{
-    box-sizing: border-box;
-    /* display: block; */
-    width: 100%;
-    padding: 0px;
-    margin: 0px;
-    background-color: blue;
+/* font used for the index page */
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans|Oswald&display=swap');
+
+
+html{
+    background-color: #E88D7D;
 }
 
-div#something2{
+h1{
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    font-size: 370px;
+    text-shadow: 10px 5px #C0C781;
+    margin: 0px;
+    padding: 0px;
+    transition: 3s;
+}
+
+
+@keyframes zoom{
+    0%{opacity: 0; font-size: 0px;}
+    33%{opacity: 0; font-size: 0px;}
+    100%{opacity: 1; font-size: 40px;}
+}
+
+nav ul li a{
+    display: inline;
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 40px;
+    animation-name: zoom;
+    animation-duration: 4s;
+}
+
+li{
+    display: inline;
+}
+
+li a {
     display: block;
-    width: 100%;
-    padding: 0px;
-    margin: 0px;
-    background-color: pink;
+    padding: 8px;
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    text-decoration: none;
 }
 
-p#efi{
-    padding: 0px;
-    margin: 0px;
+nav a:hover{
+    color: #C0C781;
+    transition: .3s color;
+}
+
+ul{
+    text-align: center;
+}
+ 
+img#ss{
+ background: fixed;
+ padding: 0;
+ margin: 0 ;
 }
