@@ -41,15 +41,7 @@ h1 {
     transition: 3s;
 }
 
-nav ul li a {
-    display: block;
-    font-family: 'Oswald', sans-serif;
-    color: white;
-    text-decoration: none;
-    list-style-type: none;
-    font-size: 20px;
-    width: fit-content;
-}
+/* Begin Nav selection */
 
 nav {
     padding-left: 0px;
@@ -63,40 +55,58 @@ nav {
     border-radius: 30px;
 }
 
-li {
-    display: inline;
-}
-
-li a {
-    display: block;
-    padding: 8px;
-    font-family: 'Oswald', sans-serif;
-    color: white;
-    text-decoration: none;
-}
-
-nav a:hover {
-    color: #C0C781;
-    transition: .3s color;
-}
-
 ul {
     padding-left: 0px;
     padding-right: auto;
 }
 
+li {
+    display: inline;
+}
+
+nav ul li a {
+    display: block;
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 20px;
+    width: fit-content;
+    padding: 8px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav ul li a:hover {
+    color: #C0C781;
+    transition: .3s color;
+}
+
+/* End Nav Section */
+
 #starting_pane, #about_pane {
     height: 110vh;
 }
 
-h2, h2 a {
-    font-size: 40px;
+#learn_more, #learn_more a {
+    font-size: 60px;
+    font-family: 'Oswald';
     text-align: center;
     color: white;
     animation-name: zoom;
     animation-duration: 2s;
     margin: 0px 0px;
-    text-decoration: none;
+    text-decoration: underline;
+}
+#to_top{
+    font-size: 60px;
+    font-family: 'Oswald';
+    text-align: center;
+    color: white;
+    margin: 0px 0px;
+    text-decoration: underline;
+    position: relative;
+    top: 25%;
 }
 
 p {
@@ -109,6 +119,5 @@ p {
     margin: 0px;
     margin-right: 40px;
     text-align: justify;
-    vertical-align: middle;
     top: 25%;
 }

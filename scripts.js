@@ -7,8 +7,7 @@ Aspen - Web Designer
 Abe - Project Manager
 */
 
-// var activeStyles = "styles-1.css";
-// replaceCSS(activeStyles);
+var activeStyles = "styles-1.css";
 
 //Changes the styles on the page to match the styles the user selected
 function replaceCSS(newStyles) {
