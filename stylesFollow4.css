@@ -1,8 +1,8 @@
 html{
-    background-color: #151816;
+    background: red;
 }
 h1{
-    color:#C4B7CB;
+    color:white;
     text-align: center;
     text-shadow: black 2px 2px 2px;
 }
@@ -16,8 +16,8 @@ img.rob{
     margin-left: 70px;
     margin-right: 60px;
     margin-bottom: 40px;
-    border: solid gray;
-    box-shadow: white 2px 2px 1px ;
+    border: solid black;
+
 
 }
 
@@ -28,12 +28,13 @@ img#robot1{
 nav ul li a{
     display: inline;
     font-family: 'Oswald', sans-serif;
-    color: white;
+    color: yellow   ;
     text-decoration: none;
     list-style-type: none;
     font-size: 40px;
     animation-name: zoom;
     animation-duration: 4s;
+
     
 }
 
@@ -73,6 +74,7 @@ nav{
     text-decoration: none;
     margin-left: 270px;
     font-size: 2em;
+    text-shadow: black 2px 2px 2px;
 }
 
 a#fac{
