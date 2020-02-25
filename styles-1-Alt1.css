@@ -10,13 +10,14 @@ Abe - Project Manager
 /* INDEX*/
 
 /* font used for the index page */
-
 @import url('https://fonts.googleapis.com/css?family=Noto+Sans|Oswald&display=swap');
-html {
-    background-color: #E88D7D;
+
+
+html{
+    background-color: rgb(134, 232, 125);
 }
 
-h1 {
+h1{
     text-align: center;
     font-family: 'Oswald', sans-serif;
     color: white;
@@ -27,22 +28,14 @@ h1 {
     transition: 3s;
 }
 
-@keyframes zoom {
-    0% {
-        opacity: 0;
-        font-size: 0px;
-    }
-    33% {
-        opacity: 0;
-        font-size: 0px;
-    }
-    100% {
-        opacity: 1;
-        font-size: 40px;
-    }
+
+@keyframes zoom{
+    0%{opacity: 0; font-size: 0px;}
+    33%{opacity: 0; font-size: 0px;}
+    100%{opacity: 1; font-size: 40px;}
 }
 
-nav ul li a {
+nav ul li a{
     display: inline;
     font-family: 'Oswald', sans-serif;
     color: white;
@@ -53,7 +46,7 @@ nav ul li a {
     animation-duration: 4s;
 }
 
-li {
+li{
     display: inline;
 }
 
@@ -65,17 +58,17 @@ li a {
     text-decoration: none;
 }
 
-nav a:hover {
+nav a:hover{
     color: #C0C781;
     transition: .3s color;
 }
 
-ul {
+ul{
     text-align: center;
 }
-
-img#ss {
-    background: fixed;
-    padding: 0;
-    margin: 0;
+ 
+img#ss{
+ background: fixed;
+ padding: 0;
+ margin: 0 ;
 }

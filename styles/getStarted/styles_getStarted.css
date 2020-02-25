@@ -1,15 +1,15 @@
+/*
+Team Info:
+
+Jerry - Content Designer
+Zac I. - Programmer, Web Developer
+Aspen - Web Designer
+Abe - Project Manager
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
 html {
-    background-color: #e0ffff;
-}
-
-h1 {
-    color: #f4632f;
-    text-align: center;
-}
-
-img#robot {
-    width: 200px;
-    height: 200px;
+    background-color: chocolate;
 }
 
 /* Begin Nav selection */
