@@ -10,25 +10,73 @@ Abe - Project Manager
 /* styles for jobs page/scrolly thingy */
 @import url('https://fonts.googleapis.com/css?family=Play&display=swap');
 
+html{
+    background-color: #E88D7D;
+}
+
 h1, h3, div#info_pane p{
     text-align: center;
+    color: white;
 }
-#info_pane{
-    height: 100vh;
+
+nav {
+    padding-left: 0px;
+    padding-right: auto;
+    position: fixed;
+    float: left;
+    padding-top: auto;
+    padding-bottom: auto;
+    margin: auto auto auto 0px;
+    background-color: rgba(224, 224, 224, 0.301);
+    border-radius: 30px;
+}
+ul {
+    padding-left: 0px;
+    padding-right: auto;
+}
+li {
+    display: inline;
+}
+nav ul li a {
+    display: block;
+    font-family: 'Play', sans-serif;
+    color: white;
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 20px;
+    width: fit-content;
+    padding: 8px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav ul li a:hover {
+    color: #C0C781;
+    transition: .3s color;
+}
+
+h1{
+    transition: 2s;
+    font-size: 50px;
+    margin-bottom: 0px;
 }
 
 body{
     margin: 0px;
 }
 
-
 div#job1_apply_pane, div#job3_apply_pane{
     box-sizing: border-box;
-    background-color: #8D8D92;
-    width: 100%;
-    text-align: right;
+    background-color: #C0C781;
+    color: black;
+    width: 50%;
+    text-align: justify;
     height: 300px;
     padding: 10px;
+    margin-left: 485px;
+    margin-top: 10px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
 }
 
 div#job1_apply_pane h2, div#job3_apply_pane h2{
@@ -37,16 +85,22 @@ div#job1_apply_pane h2, div#job3_apply_pane h2{
 
 div#job2_apply_pane, div#job4_apply_pane{
     box-sizing: border-box;
-    background-color: #5D5E60;
-    width: 100%;
+    background-color: #C0C781;
+    color: black;
+    width: 50%;
     height: 300px;
-    text-align: left;
+    text-align: justify;
     padding: 10px;
+    margin-left: 235px;
+    margin-top: 10px;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
 }
 
 h2{
     margin: 0px;
     text-align: right;
+    color: white;
 }
 
 h1, h2, h3, p{
@@ -55,4 +109,7 @@ h1, h2, h3, p{
 
 form{
     font-family: 'Play', sans-serif;
+    padding-top: 10px;
+    text-align: center;
 }
+
