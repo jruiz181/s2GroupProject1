@@ -10,20 +10,20 @@ Abe - Project Manager
 /* begin general Styles section */
 
 html {
-    background-color: #E88D7D;
+    background-color: salmon;
 }
 
 h1 {
-    color: white;
-    text-shadow: 10px 5px #C0C781;
+    color: lightblue;
+    text-shadow: 10px 5px lightyellow;
 }
 
 #learn_more, #learn_more a {
-    color: white;
+    color: black;
 }
 
 #to_top {
-    color: white;
+    color: black;
 }
 
 #to_top a {
@@ -37,7 +37,7 @@ nav {
 }
 
 nav ul li a {
-    color: white;
+    color: black;
 }
 
 nav ul li a:hover {
