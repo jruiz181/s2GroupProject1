@@ -66,17 +66,10 @@ body{
 } */
 
 div#job1_apply_pane, div#job3_apply_pane{
-<<<<<<< HEAD
     /* box-sizing: border-box; */
     background-color: #C0C781;
     color: black;
     /* width: 50%;
-=======
-    box-sizing: border-box;
-    background-color: #1E555C;
-    color: #F4D8CD;
-    width: 50%;
->>>>>>> Aspen
     text-align: justify;
     height: 300px;
     padding: 10px;
@@ -91,13 +84,8 @@ div#job1_apply_pane h2, div#job3_apply_pane h2{
 }
 
 div#job2_apply_pane, div#job4_apply_pane{
-<<<<<<< HEAD
     /* box-sizing: border-box; */
     background-color: #C0C781;
-=======
-    box-sizing: border-box;
-    background-color: #BCAC9B;
->>>>>>> Aspen
     color: black;
     /* width: 50%;
     height: 300px;
