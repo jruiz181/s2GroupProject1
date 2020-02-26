@@ -1,0 +1,72 @@
+html {
+    background-color: rgb(255, 0, 0);
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    text-shadow: black 2px 2px;
+}
+
+img.rob {
+    width: 250px;
+    height: 250px;
+    margin: 20px;
+    border: rgb(225, 225, 225) solid 5px;
+}
+
+div.bob {
+    margin: auto;
+    width: 910px;
+}
+
+/* Begin Nav selection */
+
+nav {
+    padding-left: 0px;
+    padding-right: auto;
+    position: fixed;
+    float: left;
+    padding-top: auto;
+    padding-bottom: auto;
+    margin: auto auto auto 0px;
+    background-color: rgba(224, 224, 224, 0.301);
+    border-radius: 30px;
+}
+
+ul {
+    padding-left: 0px;
+    padding-right: auto;
+}
+
+li {
+    display: inline;
+}
+
+nav ul li a {
+    display: block;
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 20px;
+    width: fit-content;
+    padding: 8px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav ul li a:hover {
+    color: #C0C781;
+    transition: .3s color;
+}
+
+/* End Nav Section */
+
+.ss {
+    color: white;
+    text-decoration: none;
+    font-size: 2em;
+    margin-left: 100px;
+    margin-right: 100px;
+}
