@@ -1,0 +1,170 @@
+/*
+Team Info:
+
+Jerry - Content Designer
+Zac I. - Programmer, Web Developer
+Aspen - Web Designer
+Abe - Project Manager
+*/
+
+/* Begin Imports and Declarations section */
+
+@import url('https://fonts.googleapis.com/css?family=Play&display=swap');
+/* Begin General Layouts Section */
+
+h1, h3, div#info_pane p {
+    text-align: center;
+}
+
+h1 {
+    transition: 2s;
+    font-size: 50px;
+    margin-bottom: 0px;
+}
+
+body {
+    margin: 0px;
+}
+
+div#job1_apply_pane, div#job3_apply_pane {
+    box-sizing: border-box;
+    width: 50%;
+    text-align: justify;
+    height: 300px;
+    padding: 10px;
+    margin-left: 485px;
+    margin-top: 10px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+
+div#job1_apply_pane h2, div#job3_apply_pane h2 {
+    text-align: left;
+}
+
+div#job2_apply_pane, div#job4_apply_pane {
+    box-sizing: border-box;
+    width: 50%;
+    height: 300px;
+    text-align: justify;
+    padding: 10px;
+    margin-left: 235px;
+    margin-top: 10px;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+h2 {
+    margin: 0px;
+    text-align: right;
+}
+
+h1, h2, h3, p {
+    font-family: 'Play', sans-serif;
+}
+
+form {
+    font-family: 'Play', sans-serif;
+    padding-top: 10px;
+    text-align: center;
+}
+
+/* Begin Nav Layouts */
+
+nav {
+    padding-left: 0px;
+    padding-right: auto;
+    position: fixed;
+    float: left;
+    padding-top: auto;
+    padding-bottom: auto;
+    margin: auto auto auto 0px;
+    background-color: rgba(224, 224, 224, 0.301);
+    border-radius: 30px;
+}
+
+ul {
+    padding-left: 0px;
+    padding-right: auto;
+}
+
+li {
+    display: inline;
+}
+
+nav ul li a {
+    display: block;
+    font-family: 'Play', sans-serif;
+    color: white;
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 20px;
+    width: fit-content;
+    padding: 8px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav ul li a:hover {
+    color: #C0C781;
+    transition: .3s color;
+}
+
+/* Begin styleSelection Layouts */
+
+div#styleSelection {
+    margin-left: auto;
+    margin-right: 5px;
+    animation-name: styleSelectionBoxDelay;
+    animation-duration: 5s;
+    height: max-content;
+    width: max-content;
+}
+
+button.colorButton {
+    height: 25px;
+    width: 25px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: rgb(41, 41, 41);
+}
+
+/* Base Colors */
+
+button#color1 {
+    background-color: #E88D7D;
+}
+
+button#color2 {
+    background-color: chartreuse;
+}
+
+button#color3 {
+    background-color: darkblue;
+}
+
+button#color4 {
+    background-color: black;
+}
+
+/* Hover Colors */
+
+button#color1:hover, button#color1:active {
+    background-color: rgb(182, 114, 103);
+    transition: 0.3s;
+}
+
+button#color2:hover, button#color2:active {
+    background-color: rgb(105, 199, 12);
+    transition: 0.3s;
+}
+
+button#color3:hover, button#color3:active {
+    background-color: rgb(7, 7, 204);
+    transition: 0.3s;
+}
+
+button#color4:hover, button#color4:active {
+    background-color: rgb(44, 44, 44);
+    transition: 0.3s;
+}

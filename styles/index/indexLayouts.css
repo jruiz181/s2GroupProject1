@@ -7,6 +7,8 @@ Aspen - Web Designer
 Abe - Project Manager
 */
 
+/* Begin Imports and Declarations section */
+
 @import url('https://fonts.googleapis.com/css?family=Noto+Sans|Oswald&display=swap');
 @keyframes zoom {
     0% {
@@ -22,6 +24,20 @@ Abe - Project Manager
         font-size: 40px;
     }
 }
+
+@keyframes styleSelectionBoxDelay {
+    0% {
+        opacity: 0;
+    }
+    60% {
+        opacity: 0;
+    }
+    85% {
+        opacity: 1;
+    }
+}
+
+/* Begin General Layouts Section */
 
 h1 {
     text-align: center;
@@ -59,3 +75,50 @@ ul {
     text-align: center;
 }
 
+/* Begin styleSelection Layouts */
+
+div#styleSelection {
+    margin-left: auto;
+    margin-right: 5px;
+    animation-name: styleSelectionBoxDelay;
+    animation-duration: 5s;
+    height: max-content;
+    width: max-content;
+}
+button.colorButton{
+    height: 25px;
+    width: 25px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: rgb(41, 41, 41);
+}
+/* Base Colors */
+button#color1{
+    background-color: #E88D7D;
+}
+button#color2{
+    background-color: chartreuse;
+}
+button#color3{
+    background-color: darkblue;
+}
+button#color4{
+    background-color: black;
+}
+/* Hover Colors */
+button#color1:hover, button#color1:active{
+    background-color: rgb(182, 114, 103);
+    transition: 0.3s;
+}
+button#color2:hover, button#color2:active{
+    background-color: rgb(105, 199, 12);
+    transition: 0.3s;
+}
+button#color3:hover, button#color3:active{
+    background-color: rgb(7, 7, 204);
+    transition: 0.3s;
+}
+button#color4:hover, button#color4:active{
+    background-color: rgb(44, 44, 44);
+    transition: 0.3s;
+}

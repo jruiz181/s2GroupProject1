@@ -20,10 +20,6 @@ nav ul li a {
     color: white;
 }
 
-/* li a {
-    color: white;
-} */
-
 nav ul li a:hover {
     color: #C0C781;
     transition: .3s color;

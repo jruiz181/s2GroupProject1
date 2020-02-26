@@ -10,11 +10,16 @@
         Aspen - Web Designer
         Abe - Project Manager
     -->
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <link rel="stylesheet" href="styles/jobs/jobsLayouts.css" />
+    <link rel="stylesheet" href="styles/jobs/jobsColors1.css" />
+    <script src="scripts/styleSelector.js" defer></script>
+
     <title>EFI &mdash; Apply</title>
-    <link href="styles-3.css" rel="stylesheet" />
+    <!-- <link href="styles-3.css" rel="stylesheet" /> -->
 </head>
 
 <body>
@@ -113,6 +118,13 @@
 
             <input type="submit" id="submit_box" value="Apply Now!" />
         </form>
+    </div>
+
+    <div id="styleSelection">
+        <button class="colorButton" id="color1" onclick="replaceCSS('styles/jobs/jobsColors1.css')"></button>
+        <button class="colorButton" id="color2" onclick="replaceCSS('styles/jobs/jobsColors2.css')"></button>
+        <button class="colorButton" id="color3" onclick="replaceCSS('styles/jobs/jobsColors3.css')"></button>
+        <button class="colorButton" id="color4" onclick="replaceCSS('styles/jobs/jobsColors4.css')"></button>
     </div>
 </body>
 
