@@ -10,12 +10,12 @@ Abe - Project Manager
 /* begin general Styles section */
 
 html {
-    background-color: #592E83;
+    background-color: black;
 }
 
 h1 {
-    color: #9984D4;
-    text-shadow: 10px 5px #F6D8AE;
+    color: white;
+    text-shadow: 10px 5px yellow;
 }
 
 h3{
