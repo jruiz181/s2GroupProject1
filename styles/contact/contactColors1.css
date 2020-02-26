@@ -24,7 +24,14 @@ h1 {
 
 p {
     color: white;
-    background: #C0C781;
+}
+div#wert{
+    background: #C0C781 ;
+    display: grid;
+    width: 50%;
+    margin: auto;
+    border: solid #C0C781 2px;
+    border-radius: 15%;
 }
 
 /* nav section */

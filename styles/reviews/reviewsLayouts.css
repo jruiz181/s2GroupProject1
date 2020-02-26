@@ -137,19 +137,19 @@ button.colorButton {
 /* Base Colors */
 
 button#color1 {
-    background-color: #E88D7D;
+    background-color: salmon;
 }
 
 button#color2 {
-    background-color: chartreuse;
+    background-color: violet;
 }
 
 button#color3 {
-    background-color: darkblue;
+    background-color: purple;
 }
 
 button#color4 {
-    background-color: black;
+    background-color: lightyellow;
 }
 
 /* Hover Colors */

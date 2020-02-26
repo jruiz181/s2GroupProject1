@@ -38,19 +38,18 @@ h1 {
     margin-left: 100px;
     margin-right: 100px;
 }
-
+#sm{
+    text-decoration: none;
+}
 p {
     text-align: center;
     font-size: 2em;
-    position: relative;
-    top: 50px;
-    width: max-content;
-    margin-left: 500px;
+
 }
 
 img {
     position: relative;
-    top: 200px;
+    top: 150px;
 }
 
 /* Begin Nav Layouts */
@@ -113,15 +112,15 @@ button#color1 {
 }
 
 button#color2 {
-    background-color: chartreuse;
+    background-color: black;
 }
 
 button#color3 {
-    background-color: darkblue;
+    background: linear-gradient(red, white, blue);
 }
 
 button#color4 {
-    background-color: black;
+background-color:orange;
 }
 
 /* Hover Colors */
@@ -132,16 +131,16 @@ button#color1:hover, button#color1:active {
 }
 
 button#color2:hover, button#color2:active {
-    background-color: rgb(105, 199, 12);
+    background-color:rgb(116, 116, 116);
     transition: 0.3s;
 }
 
 button#color3:hover, button#color3:active {
-    background-color: rgb(7, 7, 204);
+    background: linear-gradient(rgb(245, 80, 80), rgb(167, 166, 166), rgb(98, 98, 238))
     transition: 0.3s;
 }
 
 button#color4:hover, button#color4:active {
-    background-color: rgb(44, 44, 44);
+    background-color: white;
     transition: 0.3s;
 }
