@@ -11,7 +11,7 @@ Abe - Project Manager
 /* @import url('https://fonts.googleapis.com/css?family=Play&display=swap'); */
 
 html{
-    background-color: #E88D7D;
+    background-color: #3A2E39;
 }
 
 h1, h3, div#info_pane p{
@@ -51,7 +51,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: #C0C781;
+    color: #1E555C;
     transition: .3s color;
 } */
 
@@ -66,10 +66,17 @@ body{
 } */
 
 div#job1_apply_pane, div#job3_apply_pane{
+<<<<<<< HEAD
     /* box-sizing: border-box; */
     background-color: #C0C781;
     color: black;
     /* width: 50%;
+=======
+    box-sizing: border-box;
+    background-color: #1E555C;
+    color: #F4D8CD;
+    width: 50%;
+>>>>>>> Aspen
     text-align: justify;
     height: 300px;
     padding: 10px;
@@ -84,8 +91,13 @@ div#job1_apply_pane h2, div#job3_apply_pane h2{
 }
 
 div#job2_apply_pane, div#job4_apply_pane{
+<<<<<<< HEAD
     /* box-sizing: border-box; */
     background-color: #C0C781;
+=======
+    box-sizing: border-box;
+    background-color: #BCAC9B;
+>>>>>>> Aspen
     color: black;
     /* width: 50%;
     height: 300px;
