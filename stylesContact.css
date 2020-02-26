@@ -1,22 +1,14 @@
+
+
 html{
     background-color: #E88D7D;
+    font-family: montserrat;
 }
 h1{
     color:white;
     text-align: center;
-    text-shadow: 2px 2px #C0C781;}
-img.rob{
-    width: 250px;
-    height: 250px;
-    margin: 20px;
-    border: #C0C781 solid 5px;
-    box-shadow: white 2px 2px 15px;
-}
-
-div.bob{
-margin: auto;
-
-width: 910px;
+    text-shadow: 2px 2px #C0C781;
+    font-size: 3em;    
 }
 
 /* Begin Nav selection */
@@ -68,4 +60,21 @@ nav ul li a:hover {
     font-size: 2em;
     margin-left: 100px;
     margin-right: 100px;
+}
+p{
+    text-align: center;
+    color: white;
+    font-size: 2em;
+    position: relative;
+    top: 50px;
+    background: #C0C781;
+    width:max-content;
+    margin-left: 500px;
+}
+
+img{
+position: relative;
+top: 200px;
+
+
 }
