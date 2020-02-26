@@ -17,11 +17,11 @@ h1, h3, div#info_pane p {
 
 div#job1_apply_pane, div#job3_apply_pane {
     background-color: #1E555C;
-    color: #1E555C;
+    color: #F4D8CD;
 }
 
 div#job2_apply_pane, div#job4_apply_pane {
-    background-color: #1E555C;
+    background-color: #BCAC9B;
     color: black;
 }
 
