@@ -8,16 +8,16 @@ Abe - Project Manager
 */
 
 html {
-    background-color: #3A2E39;
+    background-color: #8D6A9F;
 }
 
 h1, h3, div#info_pane p {
-    color: white;
+    color: #48A9A6;
 }
 
 div#job1_apply_pane, div#job3_apply_pane {
     background-color: #1E555C;
-    color: #F4D8CD;
+    color: #230C33;
 }
 
 div#job2_apply_pane, div#job4_apply_pane {
