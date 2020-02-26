@@ -8,12 +8,12 @@ Abe - Project Manager
 */
 
 html {
-    background-color: #E88D7D;
+    background-color: #beebe9;
 }
 
 h1 {
     color: white;
-    text-shadow: 10px 5px #C0C781;
+    text-shadow: 10px 5px #f4dada;
 }
 
 nav ul li a {
@@ -21,6 +21,6 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: #C0C781;
+    color: #f6eec7;
     transition: .3s color;
 }
