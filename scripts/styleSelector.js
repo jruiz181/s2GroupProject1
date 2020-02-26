@@ -7,13 +7,14 @@ Aspen - Web Designer
 Abe - Project Manager
 */
 
-var activeStyles = "styles-1.css";
-
 //Changes the styles on the page to match the styles the user selected
 function replaceCSS(newStyles) {
 
+    // Declares the var for the current style
+    var activeStyles = "";
+
     //grabs the css page to replace with the user's selection
-    var startingStyles = document.getElementsByTagName("link")[0];
+    var startingStyles = document.getElementsByTagName("link")[1];
 
     //Creates the element that will be injected to the page
     var replacementStyle = document.createElement("link");

@@ -1,58 +1,60 @@
-html{
-    background-color: rgb(87, 87, 87);
+html {
+    background-color: #E88D7D;
 }
-h1{
-    color:white;
-    text-align: center;
-    text-shadow: 2px 2px rgb(0, 0, 0);}
-img.rob{
-    width: 250px;
+
+h1 {
+    color: white;
+    /* text-align: center; */
+    text-shadow: 2px 2px #C0C781;
+}
+
+img.rob {
+    /* width: 250px;
     height: 250px;
-    margin: 20px;
-    border: black solid 3px;
+    margin: 20px; */
+    border: #C0C781 solid 5px;
     box-shadow: white 2px 2px 15px;
 }
 
-div.bob{
-margin: auto;
-
-width: 910px;
-}
+/* div.bob {
+    margin: auto;
+    width: 910px;
+} */
 
 /* Begin Nav selection */
 
 nav {
-    padding-left: 0px;
+    /* padding-left: 0px;
     padding-right: auto;
     position: fixed;
     float: left;
     padding-top: auto;
     padding-bottom: auto;
-    margin: auto auto auto 0px;
+    margin: auto auto auto 0px; */
     background-color: rgba(224, 224, 224, 0.301);
-    border-radius: 30px;
+    /* border-radius: 30px; */
 }
 
-ul {
+/* ul {
     padding-left: 0px;
     padding-right: auto;
 }
 
 li {
     display: inline;
-}
+} */
 
 nav ul li a {
-    display: block;
-    font-family: 'Oswald', sans-serif;
+    /* display: block;
+    font-family: 'Oswald', sans-serif; */
     color: white;
-    text-decoration: none;
+    /* text-decoration: none;
     list-style-type: none;
     font-size: 20px;
     width: fit-content;
     padding: 8px;
     margin-left: auto;
-    margin-right: auto;
+    margin-right: auto; */
 }
 
 nav ul li a:hover {
@@ -60,12 +62,12 @@ nav ul li a:hover {
     transition: .3s color;
 }
 
-/* End Nav Section */  
+/* End Nav Section */
 
-.ss{
+.ss {
     color: white;
-    text-decoration: none;
+    /* text-decoration: none;
     font-size: 2em;
     margin-left: 100px;
-    margin-right: 100px;
+    margin-right: 100px; */
 }

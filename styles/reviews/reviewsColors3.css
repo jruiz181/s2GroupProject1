@@ -1,0 +1,45 @@
+/*
+Team Info:
+
+Jerry - Content Designer
+Zac I. - Programmer, Web Developer
+Aspen - Web Designer
+Abe - Project Manager
+*/
+
+html {
+    background-color: #3A2E39;
+}
+
+h1, h3, div#info_pane p {
+    color: white;
+}
+
+div#job1_apply_pane, div#job3_apply_pane {
+    background-color: #1E555C;
+    color: #F4D8CD;
+}
+
+div#job2_apply_pane, div#job4_apply_pane {
+    background-color: #BCAC9B;
+    color: black;
+}
+
+h2 {
+    color: white;
+}
+
+/* nav section */
+
+nav {
+    background-color: rgba(224, 224, 224, 0.301);
+}
+
+nav ul li a {
+    color: white;
+}
+
+nav ul li a:hover {
+    color: #1E555C;
+    transition: .3s color;
+}

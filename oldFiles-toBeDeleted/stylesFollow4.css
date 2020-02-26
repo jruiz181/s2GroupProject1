@@ -1,24 +1,23 @@
-html{
+html {
     background-color: rgb(255, 0, 0);
 }
-h1{
-    color:white;
+
+h1 {
+    color: white;
     text-align: center;
     text-shadow: black 2px 2px;
 }
-img.rob{
+
+img.rob {
     width: 250px;
     height: 250px;
     margin: 20px;
     border: rgb(225, 225, 225) solid 5px;
-    
-
 }
 
-div.bob{
-margin: auto;
-
-width: 910px;
+div.bob {
+    margin: auto;
+    width: 910px;
 }
 
 /* Begin Nav selection */
@@ -62,9 +61,9 @@ nav ul li a:hover {
     transition: .3s color;
 }
 
-/* End Nav Section */  
+/* End Nav Section */
 
-.ss{
+.ss {
     color: white;
     text-decoration: none;
     font-size: 2em;
