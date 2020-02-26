@@ -10,11 +10,15 @@
         Aspen - Web Designer
         Abe - Project Manager
     -->
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>EFI &mdash; Apply</title>
-    <link href="styles-3.css" rel="stylesheet" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <link rel="stylesheet" href="styles/reviews/reviewsLayouts.css" />
+    <link rel="stylesheet" href="styles/reviews/reviewsColors1.css" />
+    <script src="scripts/styleSelector.js" defer></script>
+
+    <title>EFI &mdash; Reviews</title>
 </head>
 
 <body>
@@ -29,12 +33,22 @@
             <li><a href="jobs.html">Jobs</a></li>
             <li><a href="reviews.html">Reviews</a></li>
             <li><a href="specs.html">Specs</a></li>
+            <div id="styleSelection">
+                <button class="colorButton" id="color1"
+                    onclick="replaceCSS('styles/reviews/reviewsColors1.css')"></button>
+                <button class="colorButton" id="color2"
+                    onclick="replaceCSS('styles/reviews/reviewsColors2.css')"></button>
+                <button class="colorButton" id="color3"
+                    onclick="replaceCSS('styles/reviews/reviewsColors3.css')"></button>
+                <button class="colorButton" id="color4"
+                    onclick="replaceCSS('styles/reviews/reviewsColors4.css')"></button>
+            </div>
         </ul>
     </nav>
     <div class="colored_section" id="info_pane">
         <h1>Reviews</h1>
-        <h3></h3>
-        
+        <h3>Come see what makes us great!</h3>
+
         <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt <br>
             ut labore et dolore magna aliqua. Nulla facilisi cras fermentum odio eu. Commodo elit at <br>
@@ -77,11 +91,11 @@
             accumsan sit amet nulla facilisi. Mus mauris vitae ultricies leo integer malesuada nunc vel. Interdum varius
             sit amet mattis vulputate enim. Porta non pulvinar neque laoreet suspendisse. Amet purus gravida quis.
         </p>
-        <h4 align=right> - Sissey at Wattaburger    </h4>
+        <h4 align=right> - Gerald at Wattaburger </h4>
     </div>
 
     <div class="colored_section" id="job4_apply_pane">
-        <h2 class="job_titles">&#9733 &#9733 &#9733  &#9733 &#9734</h2>
+        <h2 class="job_titles">&#9733 &#9733 &#9733 &#9733 &#9734</h2>
         <h3>"SPECKTACULAR!"</h3>
         <p class="job_descriptions">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt

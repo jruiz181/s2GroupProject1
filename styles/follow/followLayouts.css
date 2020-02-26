@@ -9,7 +9,7 @@ Abe - Project Manager
 
 /* Begin Imports and Declarations section */
 
-@import url('https://fonts.googleapis.com/css?family=Play&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
 @keyframes styleSelectionBoxDelay {
     0% {
         opacity: 0;
@@ -24,61 +24,26 @@ Abe - Project Manager
 
 /* Begin General Layouts Section */
 
-h1, h3, div#info_pane p {
-    text-align: center;
-}
-
 h1 {
-    transition: 2s;
-    font-size: 50px;
-    margin-bottom: 0px;
-}
-
-body {
-    margin: 0px;
-}
-
-div#job1_apply_pane, div#job3_apply_pane {
-    box-sizing: border-box;
-    width: 50%;
-    text-align: justify;
-    height: 300px;
-    padding: 10px;
-    margin-left: 485px;
-    margin-top: 10px;
-    border-top-right-radius: 50px;
-    border-bottom-left-radius: 50px;
-}
-
-div#job1_apply_pane h2, div#job3_apply_pane h2 {
-    text-align: left;
-}
-
-div#job2_apply_pane, div#job4_apply_pane {
-    box-sizing: border-box;
-    width: 50%;
-    height: 300px;
-    text-align: justify;
-    padding: 10px;
-    margin-left: 235px;
-    margin-top: 10px;
-    border-top-left-radius: 50px;
-    border-bottom-right-radius: 50px;
-}
-
-h2 {
-    margin: 0px;
-    text-align: right;
-}
-
-h1, h2, h3, p {
-    font-family: 'Play', sans-serif;
-}
-
-form {
-    font-family: 'Play', sans-serif;
-    padding-top: 10px;
     text-align: center;
+}
+
+img.rob {
+    width: 250px;
+    height: 250px;
+    margin: 20px;
+}
+
+div.bob {
+    margin: auto;
+    width: 910px;
+}
+
+.ss {
+    text-decoration: none;
+    font-size: 2em;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
 /* Begin Nav Layouts */
@@ -105,7 +70,7 @@ li {
 
 nav ul li a {
     display: block;
-    font-family: 'Play', sans-serif;
+    font-family: 'Oswald', sans-serif;
     text-decoration: none;
     list-style-type: none;
     font-size: 20px;
@@ -141,15 +106,15 @@ button#color1 {
 }
 
 button#color2 {
-    background-color: chartreuse;
+    background-color: rgb(87, 87, 87);
 }
 
 button#color3 {
-    background-color: darkblue;
+    background-color: rgb(236, 39, 236);
 }
 
 button#color4 {
-    background-color: black;
+    background-color: rgb(255, 0, 0);
 }
 
 /* Hover Colors */
@@ -160,16 +125,16 @@ button#color1:hover, button#color1:active {
 }
 
 button#color2:hover, button#color2:active {
-    background-color: rgb(105, 199, 12);
+    background-color: rgb(63, 63, 63);
     transition: 0.3s;
 }
 
 button#color3:hover, button#color3:active {
-    background-color: rgb(7, 7, 204);
-    transition: 0.3s;
+    background-color: rgb(168, 31, 168);
+    transition: 0.8s;
 }
 
 button#color4:hover, button#color4:active {
-    background-color: rgb(44, 44, 44);
+    background-color: rgb(160, 0, 0);
     transition: 0.3s;
 }

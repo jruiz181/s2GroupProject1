@@ -9,12 +9,27 @@ Abe - Project Manager
 
 /* Begin Imports and Declarations section */
 
-@import url('https://fonts.googleapis.com/css?family=Play&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
+@keyframes zoom {
+    0% {
+        opacity: 0;
+        font-size: 0px;
+    }
+    33% {
+        opacity: 0;
+        font-size: 0px;
+    }
+    100% {
+        opacity: 1;
+        font-size: 40px;
+    }
+}
+
 @keyframes styleSelectionBoxDelay {
     0% {
         opacity: 0;
     }
-    10% {
+    40% {
         opacity: 0;
     }
     85% {
@@ -24,61 +39,70 @@ Abe - Project Manager
 
 /* Begin General Layouts Section */
 
-h1, h3, div#info_pane p {
+html {
+    scroll-behavior: smooth;
+}
+
+#starting_pane, #about_pane {
+    height: 110vh;
+}
+
+#learn_more, #learn_more a {
+    font-size: 60px;
+    font-family: 'Oswald';
     text-align: center;
+    animation-name: zoom;
+    animation-duration: 2s;
+    margin: 0px 0px;
+    text-decoration: underline;
 }
 
-h1 {
-    transition: 2s;
-    font-size: 50px;
-    margin-bottom: 0px;
-}
-
-body {
-    margin: 0px;
-}
-
-div#job1_apply_pane, div#job3_apply_pane {
-    box-sizing: border-box;
-    width: 50%;
-    text-align: justify;
-    height: 300px;
-    padding: 10px;
-    margin-left: 485px;
-    margin-top: 10px;
-    border-top-right-radius: 50px;
-    border-bottom-left-radius: 50px;
-}
-
-div#job1_apply_pane h2, div#job3_apply_pane h2 {
-    text-align: left;
-}
-
-div#job2_apply_pane, div#job4_apply_pane {
-    box-sizing: border-box;
-    width: 50%;
-    height: 300px;
-    text-align: justify;
-    padding: 10px;
-    margin-left: 235px;
-    margin-top: 10px;
-    border-top-left-radius: 50px;
-    border-bottom-right-radius: 50px;
-}
-
-h2 {
-    margin: 0px;
-    text-align: right;
-}
-
-h1, h2, h3, p {
-    font-family: 'Play', sans-serif;
-}
-
-form {
-    font-family: 'Play', sans-serif;
-    padding-top: 10px;
+#to_top {
+    font-size: 60px;
+    font-family: 'Oswald';
     text-align: center;
+    margin: 0px 0px;
+    text-decoration: underline;
+    position: relative;
+    top: 25%;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 370px;
+    margin: 0px;
+    padding: 0px;
+    transition: 3s;
+}
+
+h3{
+    font-size: 12em;
+    text-align: center;
+    color: white;
+}
+
+p {
+    position: relative;
+    font-size: 30px;
+    padding-top: auto;
+    padding-right: 0px;
+    padding-bottom: auto;
+    margin: 0px;
+    margin-right: 40px;
+    margin-left: 150px;
+    text-align: justify;
+    top: 25%;
+}
+
+#learn_more, #learn_more a {
+    font-size: 60px;
+    font-family: 'Oswald';
+    text-align: center;
+    animation-name: zoom;
+    animation-duration: 2s;
+    margin: 0px 0px;
+    text-decoration: underline;
 }
 
 /* Begin Nav Layouts */
@@ -105,7 +129,7 @@ li {
 
 nav ul li a {
     display: block;
-    font-family: 'Play', sans-serif;
+    font-family: 'Oswald', sans-serif;
     text-decoration: none;
     list-style-type: none;
     font-size: 20px;
@@ -121,7 +145,7 @@ div#styleSelection {
     margin-left: auto;
     margin-right: 5px;
     animation-name: styleSelectionBoxDelay;
-    animation-duration: 3s;
+    animation-duration: 4s;
     height: max-content;
     width: max-content;
 }

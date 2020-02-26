@@ -10,11 +10,15 @@
         Aspen - Web Designer
         Abe - Project Manager
     -->
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="styles-2.css" rel="stylesheet" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
-    <title>EFI &mdash; Company</title>
+    <link rel="stylesheet" href="styles/getStarted/getStartedLayouts.css" />
+    <link rel="stylesheet" href="styles/getStarted/getStartedColors1.css" />
+    <script src="scripts/styleSelector.js" defer></script>
+
+    <title>EFI &mdash; Get Started</title>
 </head>
 
 <body>
@@ -29,20 +33,33 @@
             <li><a href="jobs.html">Jobs</a></li>
             <li><a href="reviews.html">Reviews</a></li>
             <li><a href="specs.html">Specs</a></li>
+            <div id="styleSelection">
+                <button class="colorButton" id="color1"
+                    onclick="replaceCSS('styles/getStarted/getStartedColors1.css')"></button>
+                <button class="colorButton" id="color2"
+                    onclick="replaceCSS('styles/getStarted/getStartedColors2.css')"></button>
+                <button class="colorButton" id="color3"
+                    onclick="replaceCSS('styles/getStarted/getStartedColors3.css')"></button>
+                <button class="colorButton" id="color4"
+                    onclick="replaceCSS('styles/getStarted/getStartedColors4.css')"></button>
+            </div>
         </ul>
     </nav>
+
     <div class="colored_section" id="starting_pane">
         <h1>E.F.I.</h1>
         <h2 id="learn_more"><a href="#about_pane">Get Started</a></h2>
     </div>
-    <div class="colored_section" id="about_pane"> 
-        <h3 style="font-size: 12em;text-align: center;color:white">Download our App!</h3>
-            <center>
-            <a href="google.com"><img src="en_badge_web_generic.png"style="width: 275px;height:100px;"></a>
-            <a href="apple.com"><img src="app-store-logo.png"style="width: 275px;height:100px;"></a>
+
+    <div class="colored_section" id="about_pane">
+        <h3>Download our App!</h3>
+        <center>
+            <a href="google.com"><img src="en_badge_web_generic.png" style="width: 275px;height:100px;"></a>
+            <a href="apple.com"><img src="app-store-logo.png" style="width: 275px;height:100px;"></a>
         </center>
 
         <br />
+
         <h2 id="to_top"><a href="#starting_pane">Back To Top</a></h2>
     </div>
 </body>

@@ -7,25 +7,23 @@ Aspen - Web Designer
 Abe - Project Manager
 */
 
+/* general styles section */
+
 html {
-    background-color: #3A2E39;
+    background: linear-gradient(lightpink, rgb(211, 35, 211));
 }
 
-h1, h3, div#info_pane p {
-    color: white;
+h1 {
+    color: yellow;
+    text-shadow: 2px 2px black;
 }
 
-div#job1_apply_pane, div#job3_apply_pane {
-    background-color: #1E555C;
-    color: #F4D8CD;
+img.rob {
+    border: yellow solid 3px;
+    box-shadow: white 2px 2px 10px;
 }
 
-div#job2_apply_pane, div#job4_apply_pane {
-    background-color: #BCAC9B;
-    color: black;
-}
-
-h2 {
+.ss {
     color: white;
 }
 
@@ -40,6 +38,6 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: #1E555C;
+    color: #C0C781;
     transition: .3s color;
 }

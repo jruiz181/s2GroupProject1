@@ -24,62 +24,7 @@ Abe - Project Manager
 
 /* Begin General Layouts Section */
 
-h1, h3, div#info_pane p {
-    text-align: center;
-}
 
-h1 {
-    transition: 2s;
-    font-size: 50px;
-    margin-bottom: 0px;
-}
-
-body {
-    margin: 0px;
-}
-
-div#job1_apply_pane, div#job3_apply_pane {
-    box-sizing: border-box;
-    width: 50%;
-    text-align: justify;
-    height: 300px;
-    padding: 10px;
-    margin-left: 485px;
-    margin-top: 10px;
-    border-top-right-radius: 50px;
-    border-bottom-left-radius: 50px;
-}
-
-div#job1_apply_pane h2, div#job3_apply_pane h2 {
-    text-align: left;
-}
-
-div#job2_apply_pane, div#job4_apply_pane {
-    box-sizing: border-box;
-    width: 50%;
-    height: 300px;
-    text-align: justify;
-    padding: 10px;
-    margin-left: 235px;
-    margin-top: 10px;
-    border-top-left-radius: 50px;
-    border-bottom-right-radius: 50px;
-}
-
-h2 {
-    margin: 0px;
-    text-align: right;
-}
-
-h1, h2, h3, p {
-    font-family: 'Play', sans-serif;
-}
-
-form {
-    font-family: 'Play', sans-serif;
-    padding-top: 10px;
-    text-align: center;
-}
 
 /* Begin Nav Layouts */
 

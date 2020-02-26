@@ -7,10 +7,9 @@ Aspen - Web Designer
 Abe - Project Manager
 */
 
-/* styles for about page */
+/* company page. similar to index */
 
-
-@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
+/* @import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
 @keyframes zoom {
     0% {
         opacity: 0;
@@ -22,112 +21,100 @@ Abe - Project Manager
     }
     100% {
         opacity: 1;
-        font-size: 60px;
+        font-size: 40px;
     }
-}
+} */
 
 html {
-    background-color: #BDD9BF;
-    scroll-behavior: smooth;
+    background-color: #E88D7D;
+    /* scroll-behavior: smooth; */
 }
 
 h1 {
-    text-align: center;
-    font-family: 'Oswald', sans-serif;
-    color: #2E4052;
-    font-size: 370px;
-    text-shadow: 10px 5px #FFC857;
-    margin: 0px;
+    /* text-align: center;
+    font-family: 'Oswald', sans-serif; */
+    color: white;
+    /* font-size: 370px; */
+    text-shadow: 10px 5px #C0C781;
+    /* margin: 0px;
     padding: 0px;
-    transition: 3s;
+    transition: 3s; */
 }
 
 /* Begin Nav selection */
 
 nav {
-    padding-left: 0px;
+    /* padding-left: 0px;
     padding-right: auto;
     position: fixed;
     float: left;
     padding-top: auto;
     padding-bottom: auto;
-    margin: auto auto auto 0px;
+    margin: auto auto auto 0px; */
     background-color: rgba(224, 224, 224, 0.301);
-    border-radius: 30px;
+    /* border-radius: 30px; */
 }
 
-ul {
+/* ul {
     padding-left: 0px;
     padding-right: auto;
-}
+} */
 
-li {
+/* li {
     display: inline;
-}
+} */
 
 nav ul li a {
-    display: block;
-    font-family: 'Oswald', sans-serif;
+    /* display: block;
+    font-family: 'Oswald', sans-serif; */
     color: white;
-    text-decoration: none;
+    /* text-decoration: none;
     list-style-type: none;
     font-size: 20px;
     width: fit-content;
     padding: 8px;
     margin-left: auto;
-    margin-right: auto;
+    margin-right: auto; */
 }
 
 nav ul li a:hover {
-    color: #FFC857;
+    color: #C0C781;
     transition: .3s color;
 }
 
 /* End Nav Section */
 
-#starting_pane, #about_pane {
+/* #starting_pane, #about_pane {
     height: 110vh;
-}
+} */
 
 #learn_more, #learn_more a {
-    font-size: 60px;
+    /* font-size: 60px;
     font-family: 'Oswald';
-    text-align: center;
-    color: #2E4052;
-    animation-name: zoom;
+    text-align: center; */
+    color: white;
+    /* animation-name: zoom;
     animation-duration: 2s;
     margin: 0px 0px;
-    text-decoration: underline;
-}
-
-#learn_more a:hover{
-    color: #FFC857;
-    transition: .5s;
+    text-decoration: underline; */
 }
 #to_top{
-    font-size: 60px;
+    /* font-size: 60px;
     font-family: 'Oswald';
-    text-align: center;
-    color: #2E4052;
-    margin: 0px 0px;
+    text-align: center; */
+    color: white;
+    /* margin: 0px 0px;
     text-decoration: underline;
     position: relative;
-    top: 25%;
+    top: 25%; */
 }
 
 #to_top a{
-    color: #2E4052;
-}
-
-#to_top a:hover{
-    color:#FFC857;
-    transition: .5s;
-}
-
-p {
     color: white;
+}
+
+/* p {
     position: relative;
-    font-family: 'Oswald';
     font-size: 30px;
     padding-top: auto;
     padding-right: 0px;
@@ -137,4 +124,4 @@ p {
     margin-left: 150px;
     text-align: justify;
     top: 25%;
-}
+} */
