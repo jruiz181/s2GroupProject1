@@ -10,7 +10,7 @@ Abe - Project Manager
 /* general Styles */
 
 html {
-    background-color: #E88D7D;
+    background-color: #F7931D;
 }
 
 h1 {
@@ -21,10 +21,20 @@ h1 {
 .ss {
     color: white;
 }
-
+a{
+    color: #f9f9f9  ;
+}
 p {
-    color: white;
-    background: #C0C781;
+    color: #f9f9f9;
+}
+div#wert{
+    background: #4c4c4e   ;
+    display: grid;
+    width: 50%;
+    margin: auto;
+    border: solid #4c4c4e 2px;
+    border-radius: 15%;
+    box-shadow: #f9f9f9 1px 1px 20px;
 }
 
 /* nav section */
