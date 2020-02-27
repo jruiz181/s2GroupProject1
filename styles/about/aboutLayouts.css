@@ -150,15 +150,15 @@ button#color1 {
 }
 
 button#color2 {
-    background-color: chartreuse;
+    background-color: #7CFFC4;
 }
 
 button#color3 {
-    background-color: darkblue;
+    background-color: #A9C5A0;
 }
 
 button#color4 {
-    background-color: black;
+    background-color: #2D3047;
 }
 
 /* Hover Colors */
@@ -174,11 +174,11 @@ button#color2:hover, button#color2:active {
 }
 
 button#color3:hover, button#color3:active {
-    background-color: rgb(7, 7, 204);
+    background-color: rgb(7, 204, 73);
     transition: 0.3s;
 }
 
 button#color4:hover, button#color4:active {
-    background-color: rgb(44, 44, 44);
+    background-color: rgb(157, 157, 157);
     transition: 0.3s;
 }
