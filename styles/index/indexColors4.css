@@ -1,0 +1,26 @@
+/*
+Team Info:
+
+Jerry - Content Designer
+Zac I. - Programmer, Web Developer
+Aspen - Web Designer
+Abe - Project Manager
+*/
+
+html {
+    background-color: #ffe75e;
+}
+
+h1 {
+    color: white;
+    text-shadow: 10px 5px #feb72b;
+}
+
+nav ul li a {
+    color: white;
+}
+
+nav ul li a:hover {
+    color: #899857;
+    transition: .3s color;
+}

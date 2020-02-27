@@ -1,0 +1,50 @@
+/*
+Team Info:
+
+Jerry - Content Designer
+Zac I. - Programmer, Web Developer
+Aspen - Web Designer
+Abe - Project Manager
+*/
+
+/* begin general Styles section */
+
+html {
+    background-color: #8D6A9F;
+}
+
+h1 {
+    color: #D183C9;
+    text-shadow: 10px 5px #8CBCB9;
+}
+
+h3{
+    color: white;
+}
+
+#learn_more, #learn_more a {
+    color: white;
+}
+
+#to_top {
+    color: white;
+}
+
+#to_top a {
+    color: white;
+}
+
+/* begin nav section */
+
+nav {
+    background-color: rgba(224, 224, 224, 0.301);
+}
+
+nav ul li a {
+    color: white;
+}
+
+nav ul li a:hover {
+    color: #C0C781;
+    transition: .3s color;
+}

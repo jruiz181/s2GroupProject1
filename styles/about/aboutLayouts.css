@@ -1,0 +1,184 @@
+/*
+Team Info:
+
+Jerry - Content Designer
+Zac I. - Programmer, Web Developer
+Aspen - Web Designer
+Abe - Project Manager
+*/
+
+/* Begin Imports and Declarations section */
+
+@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
+@keyframes zoom {
+    0% {
+        opacity: 0;
+        font-size: 0px;
+    }
+    33% {
+        opacity: 0;
+        font-size: 0px;
+    }
+    100% {
+        opacity: 1;
+        font-size: 60px;
+    }
+}
+
+@keyframes styleSelectionBoxDelay {
+    0% {
+        opacity: 0;
+    }
+    40% {
+        opacity: 0;
+    }
+    85% {
+        opacity: 1;
+    }
+}
+
+/* Begin General Layouts Section */
+
+html {
+    scroll-behavior: smooth;
+}
+
+#starting_pane, #about_pane {
+    height: 110vh;
+}
+
+#to_top {
+    font-size: 60px;
+    font-family: 'Oswald';
+    text-align: center;
+    margin: 0px 0px;
+    text-decoration: underline;
+    position: relative;
+    top: 25%;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 370px;
+    margin: 0px;
+    padding: 0px;
+    transition: 3s;
+}
+
+p {
+    position: relative;
+    font-family: 'Oswald';
+    font-size: 30px;
+    padding-top: auto;
+    padding-right: 0px;
+    padding-bottom: auto;
+    margin: 0px;
+    margin-right: 40px;
+    margin-left: 150px;
+    text-align: justify;
+    top: 25%;
+}
+
+#learn_more, #learn_more a {
+    font-size: 60px;
+    font-family: 'Oswald';
+    text-align: center;
+    animation-name: zoom;
+    animation-duration: 2s;
+    margin: 0px 0px;
+    text-decoration: underline;
+}
+
+/* Begin Nav Layouts */
+
+nav {
+    padding-left: 0px;
+    padding-right: auto;
+    position: fixed;
+    float: left;
+    padding-top: auto;
+    padding-bottom: auto;
+    margin: auto auto auto 0px;
+    border-radius: 30px;
+}
+
+ul {
+    padding-left: 0px;
+    padding-right: auto;
+}
+
+li {
+    display: inline;
+}
+
+nav ul li a {
+    display: block;
+    font-family: 'Oswald', sans-serif;
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 20px;
+    width: fit-content;
+    padding: 8px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Begin styleSelection Layouts */
+
+div#styleSelection {
+    margin-left: auto;
+    margin-right: 5px;
+    animation-name: styleSelectionBoxDelay;
+    animation-duration: 4s;
+    height: max-content;
+    width: max-content;
+}
+
+button.colorButton {
+    height: 25px;
+    width: 25px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: rgb(41, 41, 41);
+}
+
+/* Base Colors */
+
+button#color1 {
+    background-color: #E88D7D;
+}
+
+button#color2 {
+    background-color: #7CFFC4;
+}
+
+button#color3 {
+    background-color: #A9C5A0;
+}
+
+button#color4 {
+    background-color: #2D3047;
+}
+
+/* Hover Colors */
+
+button#color1:hover, button#color1:active {
+    background-color: rgb(182, 114, 103);
+    transition: 0.3s;
+}
+
+button#color2:hover, button#color2:active {
+    background-color: rgb(105, 199, 12);
+    transition: 0.3s;
+}
+
+button#color3:hover, button#color3:active {
+    background-color: rgb(7, 204, 73);
+    transition: 0.3s;
+}
+
+button#color4:hover, button#color4:active {
+    background-color: rgb(157, 157, 157);
+    transition: 0.3s;
+}

@@ -1,0 +1,23 @@
+/*
+Team Info:
+
+Jerry - Content Designer
+Zac I. - Programmer, Web Developer
+Aspen - Web Designer
+Abe - Project Manager
+*/
+
+/* general section */
+
+nav {
+    background-color: rgba(224, 224, 224, 0.301);
+}
+
+nav ul li a {
+    color: white;
+}
+
+nav ul li a:hover {
+    color: #1E555C;
+    transition: .3s color;
+}

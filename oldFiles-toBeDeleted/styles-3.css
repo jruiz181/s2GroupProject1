@@ -8,18 +8,18 @@ Abe - Project Manager
 */
 
 /* styles for jobs page/scrolly thingy */
-@import url('https://fonts.googleapis.com/css?family=Play&display=swap');
+/* @import url('https://fonts.googleapis.com/css?family=Play&display=swap'); */
 
 html{
     background-color: #3A2E39;
 }
 
 h1, h3, div#info_pane p{
-    text-align: center;
+    /* text-align: center; */
     color: white;
 }
 
-nav {
+/* nav {
     padding-left: 0px;
     padding-right: auto;
     position: fixed;
@@ -53,9 +53,9 @@ nav ul li a {
 nav ul li a:hover {
     color: #1E555C;
     transition: .3s color;
-}
+} */
 
-h1{
+/* h1{
     transition: 2s;
     font-size: 50px;
     margin-bottom: 0px;
@@ -63,53 +63,52 @@ h1{
 
 body{
     margin: 0px;
-}
+} */
 
 div#job1_apply_pane, div#job3_apply_pane{
-    box-sizing: border-box;
-    background-color: #1E555C;
-    color: #F4D8CD;
-    width: 50%;
+    /* box-sizing: border-box; */
+    background-color: #C0C781;
+    color: black;
+    /* width: 50%;
     text-align: justify;
     height: 300px;
     padding: 10px;
     margin-left: 485px;
     margin-top: 10px;
     border-top-right-radius: 50px;
-    border-bottom-left-radius: 50px;
+    border-bottom-left-radius: 50px; */
 }
 
 div#job1_apply_pane h2, div#job3_apply_pane h2{
-    text-align: left;
+    /* text-align: left; */
 }
 
 div#job2_apply_pane, div#job4_apply_pane{
-    box-sizing: border-box;
-    background-color: #BCAC9B;
+    /* box-sizing: border-box; */
+    background-color: #C0C781;
     color: black;
-    width: 50%;
+    /* width: 50%;
     height: 300px;
     text-align: justify;
     padding: 10px;
     margin-left: 235px;
     margin-top: 10px;
     border-top-left-radius: 50px;
-    border-bottom-right-radius: 50px;
+    border-bottom-right-radius: 50px; */
 }
 
 h2{
-    margin: 0px;
-    text-align: right;
+    /* margin: 0px;
+    text-align: right; */
     color: white;
 }
 
-h1, h2, h3, p{
+/* h1, h2, h3, p{
     font-family: 'Play', sans-serif;
-}
+} */
 
-form{
+/* form{
     font-family: 'Play', sans-serif;
     padding-top: 10px;
     text-align: center;
-}
-
+} */

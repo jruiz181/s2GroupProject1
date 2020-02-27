@@ -10,13 +10,36 @@
         Aspen - Web Designer
         Abe - Project Manager
     -->
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <link rel="stylesheet" href="styles/specs/specsLayouts.css" />
+    <link rel="stylesheet" href="styles/specs/specsColors1.css" />
+    <script src="scripts/styleSelector.js" defer></script>
+
     <title>EFI &mdash; Specs</title>
 </head>
 
 <body>
-
+    <nav>
+        <ul>
+            <li><a href="about.html">About</a></li>
+            <li><a href="company.html">Company</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="follow.html">Follow</a></li>
+            <li><a href="getStarted.html">Get Started</a></li>
+            <li><a href="jobs.html">Jobs</a></li>
+            <li><a href="reviews.html">Reviews</a></li>
+            <!-- <li><a href="specs.html">Specs</a></li> -->
+            <div id="styleSelection">
+                <button class="colorButton" id="color1" onclick="replaceCSS('styles/specs/specsColors1.css')"></button>
+                <button class="colorButton" id="color2" onclick="replaceCSS('styles/specs/specsColors2.css')"></button>
+                <button class="colorButton" id="color3" onclick="replaceCSS('styles/specs/specsColors3.css')"></button>
+                <button class="colorButton" id="color4" onclick="replaceCSS('styles/specs/specsColors4.css')"></button>
+            </div>
+        </ul>
+    </nav>
 </body>
 
 </html>
