@@ -8,7 +8,9 @@ Abe - Project Manager
 */
 
 /* general styles section */
-
+#efi{
+    margin: 0%;
+}
 html {
     background: linear-gradient(lightpink, rgb(211, 35, 211));
 }

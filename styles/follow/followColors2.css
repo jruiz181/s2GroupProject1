@@ -9,6 +9,9 @@ Abe - Project Manager
 
 /* general styles section */
 
+#efi{
+    margin: 0%;
+}
 html {
     background-color: rgb(87, 87, 87);
 }

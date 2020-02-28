@@ -8,7 +8,9 @@ Abe - Project Manager
 */
 
 /* Begin Imports and Declarations section */
-
+h1{
+    margin: 0%;
+}
 @import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
 @keyframes styleSelectionBoxDelay {
     0% {
