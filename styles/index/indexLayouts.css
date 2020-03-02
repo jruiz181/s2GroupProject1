@@ -106,19 +106,19 @@ button#color4{
     background-color: #ffe75e;
 }
 /* Hover Colors */
-/* button#color1:hover, button#color1:active{
+button#color1:hover, button#color1:active{
     background-color: rgb(182, 114, 103);
     transition: 0.3s;
 }
 button#color2:hover, button#color2:active{
-    background-color: rgb(105, 199, 12);
+    background-color: #410b80;
     transition: 0.3s;
 }
 button#color3:hover, button#color3:active{
-    background-color: rgb(7, 7, 204);
+    background-color: #97bdbb;
     transition: 0.3s;
 }
 button#color4:hover, button#color4:active{
-    background-color: rgb(44, 44, 44);
+    background-color: #d6c24f;
     transition: 0.3s;
-} */
+}
