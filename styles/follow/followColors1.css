@@ -9,6 +9,7 @@ Abe - Project Manager
 
 /* general styles section */
 
+
 html {
     background-color: #E88D7D;
 }
@@ -40,4 +41,97 @@ nav ul li a {
 nav ul li a:hover {
     color: #C0C781;
     transition: .3s color;
+}
+
+@keyframes zoom {
+    0% {
+        opacity: 0;
+        font-size: 0px;
+    }
+    33% {
+        opacity: 0;
+        font-size: 0px;
+    }
+    100% {
+        opacity: 1;
+        font-size: 10em;
+    }
+}
+@keyframes zoom2 {
+    0% {
+        opacity: 0;
+        font-size: 0px;
+    }
+    33% {
+        opacity: 0;
+        font-size: 0px;
+    }
+    100% {
+        opacity: 1;
+        font-size: 4em;
+    }
+}
+
+h1{
+    animation-name: zoom2;
+
+
+    animation-duration: 2s;
+    margin: 0%;
+}
+
+h1#efi{
+    animation-name: zoom;
+    transition: 2s;
+    animation-duration: 2s;
+    margin: 0%;
+}
+
+@keyframes fac {
+    0% {
+        opacity: 0;
+    }
+    60% {
+        opacity: 0;
+    }
+    85% {
+        opacity: 1;
+    }
+}
+#fac{
+    animation-name: fac;
+
+    animation-duration: 4s;
+}
+@keyframes twit {
+    0% {
+        opacity: 0;
+    }
+    60% {
+        opacity: 0;
+    }
+    85% {
+        opacity: 1;
+    }
+}
+#twit{
+    animation-name: twit;
+
+    animation-duration: 3s;
+}
+@keyframes insta {
+    0% {
+        opacity: 0;
+    }
+    60% {
+        opacity: 0;
+    }
+    85% {
+        opacity: 1;
+    }
+}
+#in{
+    animation-name: insta;
+
+    animation-duration: 5s;
 }
