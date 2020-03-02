@@ -18,19 +18,25 @@ h1 {
     text-shadow: 10px 5px #C0C781;
 }
 
-h3{
-    color: white;
-}
-
 #learn_more, #learn_more a {
     color: white;
 }
 
-#to_top {
+#learn_more a:hover {
+    color: #C0C781;
+    transition: .5s;
+}
+
+#to_top, #to_top a {
     color: white;
 }
 
-#to_top a {
+#to_top a:hover {
+    color: #C0C781;
+    transition: .5s;
+}
+
+p {
     color: white;
 }
 

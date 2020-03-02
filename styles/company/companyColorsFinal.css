@@ -18,19 +18,11 @@ h1 {
     text-shadow: 10px 5px #C0C781;
 }
 
-h3{
-    color: white;
-}
-
 #learn_more, #learn_more a {
     color: white;
 }
 
-#to_top {
-    color: white;
-}
-
-#to_top a {
+#to_top, #to_top a {
     color: white;
 }
 
