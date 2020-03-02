@@ -23,7 +23,7 @@
     We want to make a site that will expose and tell about our Product, EFI, we are having 32 themes, 4 on each site,  
     *   You will be graded on both the working site and the themes
 # Information Design and Taxonomy Creation
-    * Content Goal: Create a site for the Product EFI that we have made standing for Electronic Filing Intern with the purpose of facilitating the office life in the United States. This Product will pick copies up, take packages from cubical to cubical, and also take food, and small amounts of food
+    Create a Site for the EFI Product Line, it will be showcasing the importance of EFI and the Companies Background.
 
 # Requirements and Specifications
 
@@ -46,7 +46,7 @@
 
 # Publishing and Promotion
 
-	This site is going to be presented to the Law and Public Safety class of West-MEC. It will be promoted to them while doing this, showing off the website and all of its features that will hopefully capture the audience with interest. We are going to 
+	This site is going to be presented to the Law and Public Safety class of West-MEC. It will be promoted to them while doing this, showing off the website and all of its features that will hopefully capture the audience with interest. We are going to give them a form to fillout and critique the Site.
 
     
 
